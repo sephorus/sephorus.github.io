@@ -9,6 +9,7 @@
 
 h1 {
     margin-bottom: 20px;
+    color: #2648c5;
 }
 
 p {
@@ -20,7 +21,7 @@ li {
 }
 
 ul {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     line-height: 25px;
 }
 
