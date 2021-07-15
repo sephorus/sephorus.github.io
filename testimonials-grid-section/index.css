@@ -34,7 +34,7 @@ body {
 
 .testimonial-item:nth-child(1) {
   position: relative;
-  background-image: url("../testimonials-grid-section-main/images/bg-pattern-quotation.svg");
+  background-image: url("../testimonials-grid-section/images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position-x: 180px;
   background-size: 130px;
