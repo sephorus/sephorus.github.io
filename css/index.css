@@ -10,7 +10,7 @@
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #2648c5;
 }
 
@@ -56,8 +56,5 @@ td {
 
 h2 {
   margin-top: 30px;
-}
-
-li {
-  padding: 10px;
+  margin-bottom: 15px;
 }
