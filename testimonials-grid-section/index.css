@@ -1,0 +1,140 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --gray-blue: hsl(217, 19%, 35%);
+  --gray-black: hsl(219, 29%, 14%);
+  --violet: hsl(263, 55%, 52%);
+  --background: #f8f8ff;
+  --light-gray: hsl(0, 0%, 81%);
+  --light-gray-blue: hsl(210, 46%, 95%);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: var(--background);
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding: 25px;
+}
+
+.testimonial-item {
+  background-color: var(--white);
+}
+
+.testimonial-item:nth-child(1) {
+  position: relative;
+  background-image: url("../testimonials-grid-section-main/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 180px;
+  background-size: 130px;
+  background-color: var(--violet);
+  color: hsl(0, 0%, 100%);
+}
+
+.quotation-svg {
+  position: absolute;
+  width: auto;
+  height: 125px;
+  right: 100px;
+  top: 0;
+}
+
+.testimonial-item:nth-child(2) {
+  background-color: var(--gray-blue);
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-item:nth-child(4) {
+  background-color: var(--gray-black);
+  color: hsl(0, 0%, 100%);
+}
+
+.testimonial-item {
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 3px 5px 20px rgb(0 0 0 / 0.2);
+}
+
+.testimonial-person {
+  display: flex;
+}
+
+.testimonial-highlight {
+  font-size: 25px;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.testimonial-summary {
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.testimonial-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.testimonial-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.testimonial-title {
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  border: 2px solid white;
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonial-grid {
+    width: 100%;
+    max-width: 1440px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .testimonial-item:nth-child(1) {
+    grid-column: 1 / 3;
+    background-position-x: 80%;
+  }
+
+  .testimonial-item:nth-child(4) {
+    grid-column: 2 / 4;
+  }
+
+  .testimonial-item:nth-child(5) {
+    grid-row: 1 / 3;
+    grid-column: 4 / 5;
+  }
+}
