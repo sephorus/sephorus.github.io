@@ -1,47 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="https://use.typekit.net/elx5hsm.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <section>
-        <h1 class="headline3">Joel Ramos</h1>
-        <p class="body1">
-          This will be my landing page for Frontend Mentor challenges
-        </p>
-      </section>
-      <article>
-        <h2>Completed Frontend Mentor Challenges</h2>
-        <ul>
-          <li>
-            <a
-              href="https://sephorus.github.io/testimonials-grid-section-challenge/"
-            >
-              Testimonials grid section challenge
-            </a>
-          </li>
-          <li>
-            <a href="https://sephorus.github.io/three-column-challenge/">
-              3-column preview card component challenge
-            </a>
-          </li>
-          <li>
-            <a href="https://sephorus.github.io/sunnyside-challenge/">
-              Sunnyside agency landing page challenge
-            </a>
-          </li>
-          <li>
-            <a href="https://sephorus.github.io/rest-countries/">
-              REST Countries API with color theme switcher
-            </a>
-          </li>
-        </ul>
-      </article>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Joel Ramos Portfolio</title>
+
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <script src="js/index.js"></script>
+        <menu class="menu">
+            <a href="index.html" class="logo">LOGO</a>
+            <nav>
+                <a href="about.html" class="menu-link">About</a>
+                <a href="https://ramosjoel.medium.com" class="menu-link"
+                    >Blog</a
+                >
+                <a href="projects.html" class="menu-link">Projects</a>
+                <a href="contact.html" class="menu-link">Contact</a>
+            </nav>
+        </menu>
+        <header class="header">
+            <p class="header-content">
+                Hello, my name is <strong>Joel</strong> and I am
+                <strong>Front-End</strong> and
+                <strong> Software Developer</strong> from the Pacific Northwest!
+                I am a <strong>recent graduate</strong> from Western Washington
+                University
+                <strong>looking for full-time opportunities</strong> to learn!
+            </p>
+        </header>
+        <main>
+            <section>
+                <h2 class="section-title section-title__yellow">
+                    // Recent Projects
+                </h2>
+                <div class="projects">
+                    <article class="project">
+                        <a href="#" class="project-link">
+                            <h3 class="project-title">
+                                Front-End Mentor Challenges
+                            </h3>
+                        </a>
+                        <p class="project-desc">
+                            Front-End Mentor is an online platform that provides
+                            everything you need (design files, assets, etc.) to
+                            get started with front-end development projects!
+                            They provide challenges that test your ability to
+                            build things on the web.
+                        </p>
+                        <menu class="project-links">
+                            <a
+                                href="#"
+                                class="project-relevant-link project-link__red"
+                            >
+                                Writeup
+                            </a>
+                            <a
+                                href="https://www.frontendmentor.io/profile/sephorus"
+                                class="project-relevant-link project-link__blue"
+                            >
+                                Live demos
+                            </a>
+                        </menu>
+                    </article>
+                    <article class="project">
+                        <a href="#" class="project-link">
+                            <h3 class="project-title">Senior Project</h3>
+                        </a>
+                        <p class="project-desc">
+                            During my final year at Western Washingon
+                            University, I worked with multiple teams to develop
+                            a grocery delivery service for at-risk communities.
+                            My team was responsible for creating a RESTful API,
+                            integrating with both a web and mobile application.
+                            Find out more about this project!
+                        </p>
+                    </article>
+                    <article class="project">
+                        <a href="#" class="project-link">
+                            <h3 class="project-title">JR Portfolio</h3>
+                        </a>
+                        <p class="project-desc">
+                            This very website is a recent project! I already had
+                            a personal portfolio website up, but took another
+                            look at it and didn't like what I saw; thus, the
+                            redesign. It was designed in Figma and developed
+                            with the basics: HTML, CSS, and JavaScript. Find out
+                            more about why I decided to NOT use any CSS or
+                            JavaScript framework!
+                        </p>
+                        <menu class="project-links">
+                            <a
+                                href="https://github.com/sephorus/sephorus.github.io"
+                                class="project-relevant-link project-link__red"
+                            >
+                                Github repo
+                            </a>
+                        </menu>
+                    </article>
+                </div>
+            </section>
+            <section>
+                <h2 class="section-title section-title__red">
+                    // Recent Blogs
+                </h2>
+                <div class="blogs">
+                    <a
+                        href="https://medium.com/geekculture/why-you-should-be-using-frontend-mentor-e0d84029c0d2"
+                        class="blog-link"
+                        target="_blank"
+                    >
+                        <article class="blog">
+                            <h3 class="blog-title">
+                                Why You Should Be Using Front-End Mentor
+                            </h3>
+                            <h5 class="blog-date">Joel Ramos • 6/22/2021</h5>
+                            <div class="blog-picture">
+                                <img
+                                    class="blog-img"
+                                    src="imgs/blog1.png"
+                                    alt="picture element for blog 1"
+                                />
+                            </div>
+                            <p class="blog-desc">
+                                What is Frontend Mentor? From their description
+                                on LinkedIn, Frontend Mentor
+                                <quote
+                                    >"provides designs so that you can practice
+                                    your front-end skills using a real-life
+                                    workflow."</quote
+                                >
+                                Now, what does that exactly mean? Come read my
+                                blog post and find out!
+                            </p>
+                        </article>
+                    </a>
+                    <a
+                        href="https://ramosjoel.medium.com/why-im-starting-a-blog-on-my-journey-to-becoming-a-software-developer-e360cc7e8f43"
+                        class="blog-link"
+                        target="_blank"
+                    >
+                        <article class="blog">
+                            <h3 class="blog-title">
+                                Why I’m Starting a Blog On My Journey to
+                                Becoming a Software Developer
+                            </h3>
+                            <h5 class="blog-date">Joel Ramos • 6/10/2021</h5>
+                            <div class="blog-picture">
+                                <img
+                                    class="blog-img"
+                                    src="imgs/blog2.png"
+                                    alt="picture element for blog 1"
+                                />
+                            </div>
+                            <p class="blog-desc">
+                                Ah, my very first blog post. I talk why I am
+                                starting my own blog post while pursuing a
+                                career as a Front-End or Software Developer, as
+                                well as introducing myself to the Medium
+                                community! If you want to learn a little bit
+                                more about me, you have come to the right place.
+                            </p>
+                        </article>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <menu class="footer-menu">
+                <a href="blog.html" class="footer-menu-link">Blog</a>
+                <a href="projects.html" class="footer-menu-link">Projects</a>
+            </menu>
+            <div class="footer-copyright">
+                <p>© 2021 Joel Ramos. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
 </html>

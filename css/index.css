@@ -1,60 +1,43 @@
-@import "./wrapper.css";
-@import "./type.css";
+@import "./colors.css";
+@import "./menu.css";
+@import "./header.css";
+@import "./blogs.css";
+@import "./projects.css";
+@import "./footer.css";
 
 *,
 *::before,
 *::after {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-
-h1 {
-  margin-bottom: 15px;
-  color: #2648c5;
-}
-
-p {
-  margin-bottom: 10px;
-}
-
-li {
-  margin-left: 50px;
-}
-
-ul {
-  margin-bottom: 25px;
-  line-height: 25px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: aileron, sans-serif;
-  padding: 50px;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--background-color-main);
+    font-size: 17px;
 }
 
-table {
-  width: 100%;
-  text-align: left;
+main {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
-tr:nth-child(2n) {
-  background-color: #e0e0e0;
+.section-title {
+    margin-bottom: 25px;
+    font-size: 30px;
 }
 
-table,
-th,
-td {
-  border: 1px solid #2b2b2b;
-  border-collapse: collapse;
-  padding: 10px;
+.section-title__red {
+    color: #f13c20;
 }
 
-.table-divider {
-  margin-top: 50px;
-  line-height: 25px;
+.section-title__yellow {
+    color: #d79922;
 }
 
-h2 {
-  margin-top: 30px;
-  margin-bottom: 15px;
+quote {
+    font-style: italic;
 }
