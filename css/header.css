@@ -15,3 +15,8 @@
     font-weight: 600;
     color: #4056a1;
 }
+
+.header-subtitle {
+    opacity: 0.5;
+    font-weight: 500;
+}
