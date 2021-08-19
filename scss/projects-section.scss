@@ -1,3 +1,5 @@
+@import "./variables";
+
 .projects-section-grid {
     display: grid;
     grid-template-columns: 325px 1fr;
@@ -26,15 +28,15 @@
 }
 
 .projects-section-title__red {
-    color: var(--red);
+    color: $red;
 }
 
 .projects-section-title__yellow {
-    color: var(--yellow);
+    color: $yellow;
 }
 
 .projects-section-title__blue {
-    color: var(--blue);
+    color: $blue;
 }
 
 .project-grid-item-title {

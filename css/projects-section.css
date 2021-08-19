@@ -21,13 +21,13 @@
   line-height: 1.75; }
 
 .projects-section-title__red {
-  color: var(--red); }
+  color: #f13c20; }
 
 .projects-section-title__yellow {
-  color: var(--yellow); }
+  color: #d79922; }
 
 .projects-section-title__blue {
-  color: var(--blue); }
+  color: #4056a1; }
 
 .project-grid-item-title {
   display: inline;
@@ -42,11 +42,11 @@
 
 .project-grid-item-title-link {
   text-decoration: none;
-  color: black; }
+  color: #000; }
 
 .project-grid-item-title-link:visited {
   color: black; }
 
 .project-grid-item-title-link:focus,
 .project-grid-item-title-link:hover {
-  color: var(--yellow); }
+  color: #d79922; }
