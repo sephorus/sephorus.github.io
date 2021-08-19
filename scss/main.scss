@@ -50,3 +50,16 @@ quote {
 @import "./menu.scss";
 @import "./projects-section.scss";
 @import "./projects.scss";
+
+@media only screen and (max-width: 1180px) {
+    main {
+        max-width: 800px;
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 25px;
+    }
+}
