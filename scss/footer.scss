@@ -19,7 +19,7 @@
     text-decoration: none;
     color: black;
 
-    :hover {
+    &:hover {
         border-bottom: 3px solid $yellow;
     }
 }

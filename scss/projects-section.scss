@@ -52,7 +52,7 @@
 
 .project-grid-item-title-link {
     text-decoration: none;
-    color: black;
+    color: $black;
 }
 
 .project-grid-item-title-link:visited {
@@ -61,5 +61,5 @@
 
 .project-grid-item-title-link:focus,
 .project-grid-item-title-link:hover {
-    color: var(--yellow);
+    color: $yellow;
 }

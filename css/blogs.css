@@ -15,16 +15,14 @@
   position: relative;
   border: 2px solid #000;
   background-color: #fcfcfc; }
-  .blog :focus,
-  .blog :hover {
+  .blog:focus, .blog:hover {
     box-shadow: 5px 5px 2px #f13c20; }
-  .blog :active {
+  .blog:active {
     box-shadow: 2px 2px 2px #f13c20; }
 
 .blog-link {
   text-decoration: none; }
-  .blog-link :focus,
-  .blog-link :hover {
+  .blog-link:focus, .blog-link:hover {
     box-shadow: 5px 5px 2px #f13c20; }
 
 .blog-date {

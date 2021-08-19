@@ -1,3 +1,38 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fcfcfc;
+  font-size: 17px; }
+
+main {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto; }
+
+.section-title__red {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #f13c20; }
+
+.section-title__yellow {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #d79922; }
+
+.section-title__blue {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #4056a1; }
+
+quote {
+  font-style: italic; }
+
 .blogs {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -15,16 +50,14 @@
   position: relative;
   border: 2px solid #000;
   background-color: #fcfcfc; }
-  .blog :focus,
-  .blog :hover {
+  .blog:focus, .blog:hover {
     box-shadow: 5px 5px 2px #f13c20; }
-  .blog :active {
+  .blog:active {
     box-shadow: 2px 2px 2px #f13c20; }
 
 .blog-link {
   text-decoration: none; }
-  .blog-link :focus,
-  .blog-link :hover {
+  .blog-link:focus, .blog-link:hover {
     box-shadow: 5px 5px 2px #f13c20; }
 
 .blog-date {
@@ -67,7 +100,7 @@
   border-bottom: 3px solid transparent;
   text-decoration: none;
   color: black; }
-  .footer-menu-link :hover {
+  .footer-menu-link:hover {
     border-bottom: 3px solid #d79922; }
 
 .header {
@@ -93,8 +126,7 @@
   text-decoration: none;
   padding: 5px 10px;
   border: 2px solid gray; }
-  .logo :hover,
-  .logo :focus {
+  .logo:hover, .logo:focus {
     border: 2px solid #000;
     position: relative; }
 
@@ -112,10 +144,9 @@
   text-decoration: none;
   color: black;
   border-bottom: 3px solid transparent; }
-  .menu-link :focus,
-  .menu-link :hover {
+  .menu-link:focus, .menu-link:hover {
     border-bottom: 3px solid #4056a1; }
-  .menu-link :visited {
+  .menu-link:visited {
     color: black; }
 
 nav {
@@ -167,39 +198,11 @@ nav {
 
 .project-grid-item-title-link {
   text-decoration: none;
-  color: black; }
+  color: #000; }
 
 .project-grid-item-title-link:visited {
   color: black; }
 
 .project-grid-item-title-link:focus,
 .project-grid-item-title-link:hover {
-  color: var(--yellow); }
-
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #fcfcfc;
-  font-size: 17px; }
-
-main {
-  width: 100%;
-  max-width: 1180px;
-  margin: 0 auto; }
-
-.section-title__red {
-  margin-bottom: 25px;
-  font-size: 30px;
-  color: #f13c20; }
-
-.section-title__yellow {
-  margin-bottom: 25px;
-  font-size: 30px;
   color: #d79922; }
-
-.section-title__blue {
-  margin-bottom: 25px;
-  font-size: 30px;
-  color: #4056a1; }
-
-quote {
-  font-style: italic; }

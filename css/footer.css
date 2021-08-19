@@ -14,5 +14,5 @@
   border-bottom: 3px solid transparent;
   text-decoration: none;
   color: black; }
-  .footer-menu-link :hover {
+  .footer-menu-link:hover {
     border-bottom: 3px solid #d79922; }

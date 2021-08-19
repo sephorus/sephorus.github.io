@@ -3,8 +3,7 @@
   text-decoration: none;
   padding: 5px 10px;
   border: 2px solid gray; }
-  .logo :hover,
-  .logo :focus {
+  .logo:hover, .logo:focus {
     border: 2px solid #000;
     position: relative; }
 
@@ -22,10 +21,9 @@
   text-decoration: none;
   color: black;
   border-bottom: 3px solid transparent; }
-  .menu-link :focus,
-  .menu-link :hover {
+  .menu-link:focus, .menu-link:hover {
     border-bottom: 3px solid #4056a1; }
-  .menu-link :visited {
+  .menu-link:visited {
     color: black; }
 
 nav {
