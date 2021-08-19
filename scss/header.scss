@@ -1,0 +1,24 @@
+@import "./variables";
+
+.header {
+    padding: 220px 0px 100px 0px;
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-content {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 60px;
+
+    strong {
+        font-weight: 600;
+        color: $blue;
+    }
+}
+
+.header-subtitle {
+    opacity: 0.5;
+    font-weight: 500;
+}

@@ -1,0 +1,27 @@
+{
+    "name": "sephorus.github.io",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "gulp sass",
+        "watch": "gulp sass:watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sephorus/sephorus.github.io.git"
+    },
+    "author": "Joel Ramos",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sephorus/sephorus.github.io/issues"
+    },
+    "homepage": "https://github.com/sephorus/sephorus.github.io#readme",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-sass": "^5.0.0",
+        "node-sass": "^6.0.1",
+        "sass": "^1.38.0"
+    }
+}
