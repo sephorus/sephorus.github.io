@@ -1,0 +1,43 @@
+@import "./variables";
+@import "./blogs.scss";
+@import "./button.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./menu.scss";
+@import "./projects-section.scss";
+@import "./projects.scss";
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: $background-color-main;
+    font-size: 17px;
+}
+
+main {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+@mixin section-title($textColor: $red) {
+    margin-bottom: 25px;
+    font-size: 30px;
+
+    color: $textColor;
+}
+
+.section-title__red {
+    @include section-title();
+}
+
+.section-title__yellow {
+    @include section-title($yellow);
+}
+
+.section-title__blue {
+    @include section-title($blue);
+}
+
+quote {
+    font-style: italic;
+}

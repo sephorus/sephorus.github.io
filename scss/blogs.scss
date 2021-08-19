@@ -1,0 +1,63 @@
+@import "./variables";
+
+.blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-bottom: 100px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    padding: 25px;
+    color: white;
+    position: relative;
+    border: 2px solid $black;
+    background-color: $background-color-main;
+
+    :focus,
+    :hover {
+        box-shadow: 5px 5px 2px $red;
+    }
+
+    :active {
+        box-shadow: 2px 2px 2px $red;
+    }
+}
+
+.blog-link {
+    text-decoration: none;
+
+    :focus,
+    :hover {
+        box-shadow: 5px 5px 2px $red;
+    }
+}
+
+.blog-date {
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $black;
+}
+
+.blog-picture {
+    margin: 25px 0;
+    height: 300px;
+    width: 100%;
+}
+
+.blog-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-desc {
+    line-height: 1.75;
+    font-size: 17px;
+}

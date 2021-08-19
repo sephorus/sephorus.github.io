@@ -1,23 +1,18 @@
 #footer {
-    width: 100%;
-    max-width: 1180px;
-    margin: 0 auto;
-    padding-bottom: 75px;
-}
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-bottom: 75px; }
 
 .footer-menu {
-    margin-bottom: 25px;
-    display: flex;
-    grid-gap: 25px;
-}
+  margin-bottom: 25px;
+  display: flex;
+  grid-gap: 25px; }
 
 .footer-menu-link {
-    padding-bottom: 2px;
-    border-bottom: 3px solid transparent;
-    text-decoration: none;
-    color: black;
-}
-
-.footer-menu-link:hover {
-    border-bottom: 3px solid var(--yellow);
-}
+  padding-bottom: 2px;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+  color: black; }
+  .footer-menu-link :hover {
+    border-bottom: 3px solid #d79922; }
