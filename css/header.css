@@ -13,5 +13,17 @@
     color: #4056a1; }
 
 .header-subtitle {
-  opacity: 0.5;
+  color: gray;
+  opacity: 0.75;
   font-weight: 500; }
+
+@media only screen and (max-width: 1180px) {
+  .header {
+    padding: 150px 50px 50px 50px; } }
+
+@media only screen and (max-width: 700px) {
+  .header {
+    padding: 150px 25px 50px 25px; }
+  .header-content {
+    line-height: 1.65;
+    font-size: 25px; } }
