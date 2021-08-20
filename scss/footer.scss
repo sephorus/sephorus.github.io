@@ -23,3 +23,17 @@
         border-bottom: 3px solid $yellow;
     }
 }
+
+@media only screen and (max-width: 1180px) {
+    #footer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #footer {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

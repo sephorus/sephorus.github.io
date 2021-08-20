@@ -30,3 +30,12 @@ nav {
   display: flex;
   grid-gap: 35px;
   margin-left: auto; }
+
+@media only screen and (max-width: 1180px) {
+  .menu {
+    padding-left: 50px;
+    padding-right: 50px; } }
+
+@media only screen and (max-width: 1050px) {
+  .menu {
+    display: none; } }

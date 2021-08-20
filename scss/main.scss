@@ -53,12 +53,11 @@ quote {
 
 @media only screen and (max-width: 1180px) {
     main {
-        max-width: 800px;
-        padding: 50px;
+        padding: 50px 50px 0px 50px;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     main {
         padding: 25px;
     }

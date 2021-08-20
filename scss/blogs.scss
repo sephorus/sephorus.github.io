@@ -60,3 +60,9 @@
     line-height: 1.75;
     font-size: 17px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .blogs {
+        grid-template-columns: 1fr;
+    }
+}
